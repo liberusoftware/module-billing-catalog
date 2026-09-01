@@ -1,5 +1,5 @@
 {
-  "name": "liberusoftware/billing-catalog",
+  "name": "liberusoftware/module-billing-catalog",
   "description": "Provider-neutral catalog products and lifecycle for Liberu Billing.",
   "type": "liberu-module",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "liberusoftware/module-manager": "^1.0"
   },
   "autoload": {"psr-4": {"Liberu\\Billing\\Catalog\\": "src/"}},
-  "extra": {"liberu": {"name": "billing-catalog"}},
+  "extra": {"liberu": {"name": "module-billing-catalog"}},
   "version": "0.1.1",
   "config": {
     "allow-plugins": {
